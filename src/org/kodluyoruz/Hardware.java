@@ -12,4 +12,13 @@ package org.kodluyoruz;
  */
 public abstract class Hardware
 {
+    protected String brand;
+    protected double price;
+    protected int power;
+
+    public abstract void setBrand(String brand);
+    public abstract double setPrice(double price);
+    public abstract void setPower(int power);
+
+
 }

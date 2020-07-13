@@ -9,11 +9,10 @@ public class Main
 
     public static void main(String[] args)
     {
-        // testComputer1();
-        // testComputer2();
+        testComputer1();
+         testComputer2();
     }
 
-    /*
     private static void testComputer1()
     {
         Computer computer = new Computer();
@@ -133,6 +132,5 @@ public class Main
             throw new RuntimeException(String.format("Güç tüketimi hesaplama metodunuz yanlış! Beklenen: %d Çıkan: %d", estimatedTotalPower, totalPower));
         }
     }
-    */
 
 }
